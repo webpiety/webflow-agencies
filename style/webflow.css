@@ -23,7 +23,7 @@
   color:white;
   border-style: none;
   padding: 12px 36px;
-  border-radius: 10px;;
+  border-radius: 10px;
 }
 body{
   display:block;
@@ -44,7 +44,7 @@ background-color: #F5F8FF;
 }
 button:hover {
       background-color: #c0e311;
-      font-size: 17px; /* Increases font size on hover */
+      font-size: 17px;
     }
 /* header style */
 header{
@@ -242,3 +242,41 @@ gap:158px;
   width: 40px;
   height: 40px;
 }
+/* footer style */
+.get-touch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: ;   
+    gap:115px; 
+    margin-top: 100px;
+    
+}
+footer input[type="email"], input[type="text"], textarea{
+  height:70px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  display: block;
+  padding:20px 271px 20px 32px;
+  width:497px;
+  font-size: 20px;
+  margin-bottom: 19px;
+
+}
+.label{
+  font-size: 18px;
+  color: #000000;
+}
+.get-touch-tile{
+  font-size: 97px;
+  font-weight: bolder;
+}
+.btn{
+  width: 100%;
+}
+btn:hover {
+      background-color: #c0e311;
+      font-size: 17px;
+    }
