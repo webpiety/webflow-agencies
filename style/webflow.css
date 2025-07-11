@@ -242,7 +242,7 @@ gap:158px;
   width: 40px;
   height: 40px;
 }
-/* footer style */
+/* get in touch */
 .get-touch{
     display: flex;
     justify-content: space-between;
@@ -254,7 +254,7 @@ gap:158px;
     margin-top: 100px;
     
 }
-footer input[type="email"], input[type="text"], textarea{
+input[type="email"], input[type="text"], textarea{
   height:70px;
   border-radius: 5px;
   background-color: #FFFFFF;
@@ -280,3 +280,35 @@ btn:hover {
       background-color: #c0e311;
       font-size: 17px;
     }
+.footer-logo{
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+  text-align: center;
+  margin-top: 104px;
+  margin-bottom: 8px;
+}
+.footer-description1{
+color: #8987A1;
+font-size: 16px;
+text-align: center;
+margin-bottom: 0;}
+.footer-description2{
+color: #8987A1;
+font-size: 16px;
+text-align: center;
+margin-top: 0;
+
+
+}
+.footer-menu{
+  display: flex;
+  gap:48px;
+  color: #8987A1;
+  align-items: center;
+  justify-content: center;
+  margin-left: 154px;
+  margin-right: 155px;
+  margin-bottom: 103px;
+  margin-top: 20px;
+}
