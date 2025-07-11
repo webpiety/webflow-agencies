@@ -1,0 +1,165 @@
+
+
+.raleway-rele {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+
+/* shared styles */
+.primary-button{
+  background-color: #4E47FF;
+  font-size: 16px;
+  font-weight: bold;
+  color:white;
+  border-style: none;
+  padding: 12px 36px;
+  border-radius: 10px;;
+}
+body{
+  margin-top: 0 150px 0 150px;
+  background-color: #F5F8FF;
+  
+
+}
+.primary-color{
+    color:#252432;
+}
+.secondary-color{
+    color:#4E47FF;
+
+}
+button:hover {
+      background-color: #c0e311;
+      font-size: 17px; /* Increases font size on hover */
+    }
+/* header style */
+header{
+      background-image: url("../Assets/Hero-bg.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+     display:block;
+     justify-content: center;
+     align-items: center;
+}
+
+
+/* nav style */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 150px;
+}
+.nav-logo{
+  font-size: 34px;
+  font-weight: 900px;
+  line-height: 150px;
+  letter-spacing: 0px;
+}
+
+.header-center{
+  disply: block;
+  text-align: center;
+  margin: 158px 267.5px 152px 267.5px;
+  padding-bottom: 152px;
+}
+
+.header-title{
+  
+  font-size: 65px;
+  font-weight: bold;
+}
+
+/* banner styles */
+.banner-column{
+  display: flex;
+  gap:200px;
+  justify-content: space-around;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* padding-right: 150px; */
+  /* padding-left: 150px; */
+  /* margin-left: 150px; */
+  /* margin-right: 150px; */
+  padding-left: 141px;
+  padding-right: 159px;
+  
+
+  
+}
+.banner-title{
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+}
+.banner-description{
+  font-size: 24px;
+  color:#252432;
+  opacity: 50%;
+}
+.banner-image{
+  /* width:auto; */
+  /* height: auto; */
+  border-radius: 48px;
+}
+/* user section style */
+.user{
+
+  background-color: #E5E7FF;
+  disply: block;
+  justify-content: space-around;
+  margin-left: 141px;
+  margin-right: 159px;
+  padding: 50px 142px;
+  margin-top: 116px;
+  border-radius: 15px;
+  max-height: 306px;
+  
+ 
+
+.section-user{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+ 
+}
+
+.user-main-title{
+  font-size: 38px;
+  font-weight: bold;
+  color:#252432;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section-user{
+gap:158px;
+
+  
+}
+.user-title{
+  font-size: 80px;
+  font-weight: bold;
+  color: #4E47FF;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.user-description{
+  font-size: 20px;
+  font-weight: normal;
+  color: #000000;
+  opacity: 50%;
+  margin-top: 0px;
+}
